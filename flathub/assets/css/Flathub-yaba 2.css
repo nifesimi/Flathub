@@ -1,0 +1,793 @@
+body{
+	font-family: 'Avenir', Dosis, sans-serif;
+	background-color: #ffffff;
+}
+
+/*general styling */
+*{
+    box-sizing: border-box;
+}
+
+/*reset */
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+ 	width: 100%;
+}
+
+html{
+ min-height: 100%;
+}
+
+header{
+ width: 100%;
+ overflow-x: hidden;
+
+}
+
+
+
+.Rectangle {
+ width: 100%;
+ height: 60px;
+ border:none;
+ border-radius: 0px !important;
+ margin-bottom: 0px !important;
+ background: #ffffff ;
+}
+
+.Rectangle-Copy {
+ width: 100%;
+ height: 60px;
+ border-top:solid 1px #e1e1e1 ;
+ background: #ffffff ;
+ border-right: none;
+}
+.navbar{
+ margin-bottom: 0px;
+ border-radius: 0px;
+}
+
+.About-us {
+ width: 100%;
+ height: 33px;
+ font-size: 24px;
+ color: #4a4a4a ;
+}
+
+.navbar-collapse.collapse {
+ height:100% !important;
+}
+.navbar-default .navbar-nav>li>a {
+ font-size: 16px;
+ font-weight: 300;
+ color: #000000 ;
+ color: var(--black);
+}
+.navbar-default .navbar-nav>li>a:hover{
+ color: #a66429 ;
+}
+.navbar-default .navbar-nav>li>a .glyphicon{
+ font-weight: 100 !important;
+ font-size: xx-small !important;
+}
+.navbar-default .navbar-toggle {
+   border: none !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: transparent !important;
+}
+/* generalized classes */
+.h-100{
+ height: 100% !important;
+}
+
+.dis-flex{
+ display: flex !important;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+}
+.current{
+ color: #a66429 !important;
+}
+.cd{
+ color: #cdcdcd ;
+}
+/*genralised classes end here*/
+
+.About-us-Contacts-us {
+ width: 769px;
+ list-style-type: none;
+ margin-left: 256px;
+ padding-left: 0px;
+}
+.About-us-Contacts-us li{
+ display: inline-block;
+ font-size: 16px;
+ font-weight: 300;
+ text-align: left;
+ color: #000000 ;
+ color: var(--black);
+ width: 150px;
+
+}
+
+/*Navbar styling*/
+
+
+
+/*general styling ends here*/
+
+
+
+
+
+
+
+/*flathub-yaba starts here*/
+/*Header styling*/
+.homes_yaba ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.homes_yaba a:link,
+.homes_yaba a:visited,
+.homes_yaba a:hover{
+	text-decoration: none;
+	color: #cdcdcd;
+	font-family: Avenir-Book;
+}
+#gly_homes{
+	color: #cdcdcd;
+	font-weight: 50px;
+}
+#yb{
+	color: #a66429;
+}
+.homes_yaba ul li i{
+	font-size: 16px;
+}
+
+
+/*Section styling*/
+.yaba_card{
+	border: 0.1px solid #E0E0E0;
+	border-radius: 2px;
+	margin-bottom: 50px;
+}
+
+.yaba_card a img{
+	width: 100%;
+}
+
+.rectangle-6{
+	padding: 20px;
+}
+
+.rectangle-6 p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #4a4a4a;
+	margin-bottom: 0px;
+}
+
+.yaba_card a:link,
+.yaba_card a:visited,
+.yaba_card a:hover{
+	text-decoration: none;
+}
+
+/*flathub-yaba ends here*/
+
+
+/*ourhomes2 starts here*/
+.our-apartments{
+	color: #000000;
+}
+.rectangle-3{
+	width: 263px;
+	height: 48px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+}
+
+.rectangle-3:focus{
+	outline: none;
+}
+
+.rectangle-3-btn{
+	width: 165px;
+	height: 48px;
+	margin-left: 10px;
+	color: #FFF;
+	background-color: #A66429;
+	font-size: 16px;
+	border-radius: 4px;
+	box-shadow: none;
+	border: none;
+}
+
+#rect_viewlist{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	width: 195px;
+	height: 48px;
+	position: relative;
+
+}
+
+#btn_gly{
+	margin-top: -7px;
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+
+}
+
+
+/*Ourhomes1 styling starts here*/
+
+.yaba_clink{
+	position: relative; 
+}
+
+.y_c{
+	position: relative;
+	width: 100%;
+}
+
+.yaba_clink img{
+	width: 100%;
+}
+.y_c_1{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+.y_c_1 h1{
+	color: #FFF;
+}
+
+@media (min-width: 768px) {
+   .p-b-20 {
+   	padding-bottom: 10px;
+   }
+}
+@media (min-width: 425px) {
+	.p-b-20 {
+   	padding-bottom: 10px;
+   }
+}
+@media (min-width: 375px) {
+	.p-b-20 {
+   	padding-bottom: 10px;
+   }
+}
+
+@media (min-width: 320px) {
+	.p-b-20 {
+   	padding-bottom: 10px;
+   }
+}
+
+
+@media (max-width: 768px) {
+	.our-apartments, .our-apartments-1{
+		width: 100%;
+	}
+}
+@media (max-width: 425px) {
+	.our-apartments, .our-apartments-1{
+		width: 100%;
+	}
+}
+@media (max-width: 375px) {
+	.our-apartments, .our-apartments-1{
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	.our-apartments, .our-apartments-1{
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.our-apartments-1 input {
+		margin-bottom: 10px !important;
+	}
+}
+
+@media (min-width: 425px) {
+	.our-apartments-1 input {
+		margin-bottom: 10px !important;
+	}
+}
+@media (min-width: 375px) {
+	.our-apartments-1 input {
+		margin-bottom: 20px !important;
+	}
+}
+@media (min-width: 320px) {
+	.our-apartments-1 input {
+		margin-bottom: 10px !important;
+	}
+}
+/*Our homes ends here*/
+
+
+/*apartment details page styling starts here*/
+.cont-sized{
+	margin-top: 20px;
+}
+
+.img_rect12{
+	width: 100%;
+	height: 420px;
+}
+.h_col{
+color: #4a4a4a;
+}
+
+.h_col_2 {
+	margin-top: 45px;
+}
+.rectangle-15{
+	width: 100%;
+	height: 420px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #cdcdcd;
+	margin: auto;
+	justify-content: center;
+	padding: 40px 0px 40px 0px;
+}
+.rectangle-15 i {
+	margin-left: 38px;
+	margin-right: 38px;
+}
+.rectangle-15 input{
+	width: 80%;
+	margin-left: 38px;
+	margin-right: 38px;
+	height: 48px;
+	margin-bottom: 32px;
+}
+
+#rect-17{
+	width: 80%;
+	border-radius: 2px;
+	background-color: #a66429;
+	color: #FFF;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+#rect-17-copy{
+	width: 80%;
+	margin-top: 32px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #a66429;
+	color: #a66429;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+@media (max-width: 768px) {
+	.rectangle-15{
+		margin-top: 10px;
+	}
+}
+.about{
+	width: 70%;
+	margin: auto;
+	margin-top: 48px;
+}
+.about_1 h1{
+	margin-bottom: 0px;
+}
+.about p.try_area{
+	width: 100%;
+	border: 0px;
+	
+	text-align: justify;
+}
+.space{
+	margin-top: 48px;
+}
+.amenities{
+	margin-top: 48px;
+}
+.house_rules{
+	margin-top: 48px;
+}
+.price{
+	margin-top: 48px;
+}
+.reviews{
+	margin-top: 48px;
+}
+.h_rule{
+	border: 1px solid #e1e1e1;
+	width: 100%;
+}
+.h_rule1{
+	width: 40%;
+	border: 1px solid #e1e1e1;
+}
+.show_more{
+	color: #a66429;
+	text-decoration: none;
+}
+.t_m{
+	padding-left: 0px;
+}
+#star_b{
+	color: #a66429;
+}
+/*apartment details page styling ends here*/
+
+
+
+/*viewings_page styling starts here*/
+
+
+
+
+.cont_view {
+	width: 70%;
+	border: 1px solid #e1e1e1;
+	margin-top: 24px;
+	margin-bottom:;
+}
+.cont_view hr {
+	border: 1px solid #e1e1e1;
+}
+.row_view{
+	margin: 40px !important;
+}
+.row_view img {
+	width: 100%;
+}
+.row_view h3, .row_view p {
+	color: #4a4a4a;
+}
+.m_2 h3{
+	margin-top: 5px;
+}
+.row_view button {
+	width: 166px;
+	height: 32px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #a66429;
+	color: #a66429;
+}
+
+@media (max-width: 768px) {
+	.row_view {
+		margin: 0px !important;
+		margin-bottom: 20px !important;
+	}
+	
+
+@media (max-width: 425px) {
+	.row_view {
+		margin: 0px !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+@media (max-width: 375px) {
+	.row_view {
+		margin: 0px !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.row_view {
+		margin: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+}
+
+
+/*viewings_page styling ends here*/
+
+
+
+/*user profile error messages starts here*/
+
+.rectangle-27 {
+	margin-top: 100px;
+	height: 40px;
+	background-color: #d0011b;
+	border: solid 1px #d0011b;
+}
+.i_clo {
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 0px;
+
+}
+.i_mar {
+	padding-left: 0px;
+	top: 50%;
+    margin-top: -10px;
+}
+.x_clo {
+	margin-top: 8px;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	color: #d0011b;
+	background-color: #FFF;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.rectangle-22 {
+	width: 80%;
+	height: 17px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: solid 1px #ab6c34;
+}
+.rectangle-26 {
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #ab6c34;
+}
+.mar_pro {
+	padding-left: 0px;
+}
+.row_view input {
+	width: 80%;
+}
+.ed_up {
+	color: #a66429;
+}
+.h_edit {
+	color: #a66429 !important;
+}
+
+@media (max-width: 768px) {
+	.rectangle-27 {
+		height: 40px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+@media (max-width: 425px) {
+	.rectangle-27 {
+		height: 60px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+@media (max-width: 375px) {
+	.rectangle-27 {
+		height: 60px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+
+@media (max-width: 320px) {
+	.rectangle-27 {
+		height: 80px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+
+
+
+
+
+
+
+/*user profile error messages ends here*/
+
+
+
+/*Settings page styling starts here*/
+.mar_pro{
+	display: inline-flex;	
+}
+
+
+.i_wtr{
+	font-size: 25px;
+}
+
+.d_wtr {
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.d_wtr div {
+	margin-bottom: 10px;
+}
+
+.rectangle-30 button{
+	border-radius: 2px;
+	background-color: #a66429;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+/*settings page styling ends here*/
+
+
+
+
+/*listings page styling starts here*/
+.listings {
+	color: #a66429 !important;
+}
+.dash_list {
+	width: 100%;
+	height: 80px;
+	border: 4px dashed #979797;
+}
+.dash_list p {
+	top: 50%;
+	position: absolute;
+	font-size: 24px;
+	margin-top: -12px;
+	left: 10%;
+	color: #4a4a4a;
+}
+
+#dash_list {
+	text-decoration: none;
+}
+
+
+.rectangle-3{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	width: 195px ;
+	height: 48px;
+	position: relative;
+}
+
+.rectangle-3:link,
+.rectangle-3:focus,
+.rectangle-3:active,
+.rectangle-3:visited,
+.rectangle-3:hover{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	text-decoration: none;
+}
+.p-li-24{
+	font-size: 24px;
+}
+
+#rec-3-gly{	
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	margin-top: -7px;
+}
+
+#trash {
+	color:  #cdcdcd;
+}
+/*listings page styling ends here*/
+
+
+
+
+
+/*user apartment styling starts here*/
+.rectangle-18{
+	width: 166px ;
+	height: 32px;
+	border-radius: 2px;
+	font-weight: 500 !important;
+	color: #ffffff !important;
+	background-color: #fc7b08 !important;
+	border: solid 1px #fc7b08 !important;
+}
+
+/*user apartment styling starts here*/
+
+
+
+/*flathub notification styling starts here*/
+
+#rectangle-27-copy {
+	width: 100%;
+	height: 40px !important;
+	background-color: #d0011b !important;
+	border: solid 1px #d0011b !important;
+	margin-bottom: 184px !important;
+}
+
+@media (max-width: 768px) {
+	.rectangle-27-copy {
+		height: 40px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+@media (max-width: 425px) {
+	.rectangle-27-copy {
+		height: 60px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+@media (max-width: 375px) {
+	.rectangle-27-copy {
+		height: 60px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+
+@media (max-width: 320px) {
+	.rectangle-27-copy {
+		height: 80px;
+	}
+	.i_mar {
+		top: 8px;
+	}
+}
+/*flathub notificaton styling ends here*/
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

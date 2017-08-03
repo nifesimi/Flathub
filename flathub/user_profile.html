@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>User profile</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+		<!-- font awesome right here -->
+		<link rel="stylesheet" type="text/css" href="assets/plugins/font-awesome/font-awesome/css/font-awesome.min.css">
+
+		<!-- simple line icons -->
+		<link rel="stylesheet" type="text/css" href="assets/plugins/simple-line-icons/css/simple-line-icons.css">
+
+		<!-- main css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/Flathub-yaba.css">
+
+		<!-- responsive css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	
+	</head>
+	<body>
+
+		<header>
+			<div class="rectangle">
+	            <nav class="navbar navbar-default" role="navigation">
+	                <div class="container-fluid">
+	                    <!-- Brand and toggle get grouped for better mobile display -->
+	                    <div class="navbar-header">
+	                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	                            <span class="sr-only">Toggle navigation</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                        </button>
+	                        <a href="landingpage.html"><img src="assets/img/logo/flat-hub.png" class="img-responsive" style="padding-top: 11px; padding-left: 11px;"></a>
+	                    </div>
+	            
+	                    <!-- Collect the nav links, forms, and other content for toggling -->
+	                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	                        <!--<ul class="nav navbar-nav">
+	                            <li class="active"><a href="#">Link</a></li>
+	                            <li><a href="#">Link</a></li>
+	                        </ul>-->
+	                        <ul class="nav navbar-nav navbar-right">
+	                           <li><a href="ourhomes1.html">Our apartments</a></li>
+								<li><a href="listings-page-copy.html">List apartments</a></li>
+								<li><a href="#" class="dashboard">Tobi Adebola </a></li>
+	                        </ul>
+	                        <ul class="nav navbar-nav navbar-right">
+	                        	<span class="glyphicon glyphicon-chevron-down dropdown-toggle" data-toggle="dropdown" id="btn_gly" aria-hidden="true"></span>
+								<ul class="dropdown-menu">
+							      <li><a href="#">Profile details</a></li>
+							      <li class="divider"></li>
+							      <li><a href="#">Profile details</a></li>
+							    </ul>
+	                        </ul>
+	                    </div><!-- /.navbar-collapse -->
+	                </div>
+	            </nav>
+	        </div>
+
+	        
+		    <div class="container-fluid">    
+		        <div class="row">
+			        <div class="rectangle-copy">
+
+			        	<div class="col-md-12 col-xs-12">
+			        		<ul class="text-center on-it">
+			        			<li><a href="user_profile.html" class="dashboard">Dashboard</a></li>
+			        			<li><a href="user_apartment.html">Apartments</a></li>
+			        			<li><a href="viewings_page.html">Viewings</a></li>
+			        			<li><a href="listings_page.html">Listings</a></li>
+			        			<li><a href="settings_page.html">Settings</a></li>
+			        		</ul>
+			        	</div>			        	
+			        </div>
+			    </div>
+			</div>
+	    </header><br>
+
+
+	    <section>
+
+		    <form action="" id="user_profile_form" method="post" onsubmit="return validation()">
+		    	<input type="submit" name="submit" style="visibility: hidden">
+		    	<div class="container cont_view">
+		    		<div class="row row_view">
+			    		<div class="col-md-6 col-xs-12">
+			    			<h3>Personal details</h3>
+			    		</div>
+
+			    		<div class="col-md-6 col-xs-12">
+			    			<a href="#"><h3 class="h_edit pull-right">Edit</h3></a>
+			    		</div>			
+		    			<hr>
+		    		</div>
+
+		    		<div class="row row_view">
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Full name:" id="full_name" name="full-name">
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Date of birth: " name="date-of-birth">
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Phone number: " name="Phone-number" >
+		    					</div>
+		    				</div>
+		    			</div>
+
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Email: " name="Email" >
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Gender: " name="Gender" >
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+
+
+
+		    		<div class="row row_view">
+			    		<div class="col-md-6 col-xs-12">
+			    			<h3>Employment details</h3>
+			    		</div>
+
+			    		<div class="col-md-6 col-xs-12">
+			    			<a href="#"><h3 class="h_edit pull-right">Edit</h3></a>
+			    		</div>			
+		    			<hr>
+		    		</div>
+
+		    		<div class="row row_view">
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Company name: " name="company-name" >
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Current position: " name="current-position" >
+		    					</div>
+		    				</div><br>
+
+		    			</div>
+
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="number" placeholder="Company phone number: " name="company-phone-number" >
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="text" placeholder="Company address: " name="company-address">
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+
+
+
+		    		<div class="row row_view">
+			    		<div class="col-md-6 col-xs-12">
+			    			<h3>Verification</h3>
+			    		</div>
+
+			    		<div class="col-md-6 col-xs-12">
+			    			<a href="#"><h3 class="h_edit pull-right">Edit</h3></a>
+			    		</div>			
+		    			<hr>
+		    		</div>
+
+		    		<div class="row row_view">
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12 psw_inline">
+		    						<input type="password" name="password" id="input" placeholder="  BVN: (optional)">
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						Employment verification: <input type="file" name="employment-verification" id="employment-verification" accept="file_extension|image/*" style="display: none;">
+		    						<label for="employment-verification" class="ed_up">choose file</label>
+
+		    					</div>
+		    				</div><br>
+		    			</div>
+
+		    			<div class="col-md-6 col-xs-12">
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						<input type="file" name="id-verification" id="id-verification" accept="file_extension|image/*" style="display: none;">
+		    						ID verification: <label for="id-verification" class="ed_up">choose file</label>
+		    					</div>
+		    				</div><br>
+
+		    				<div class="row">
+		    					<div class="col-md-12 col-xs-12">
+		    						 <input type="file" name="income-verification" id="income-verification" accept="file_extension|image/*" style="display: none;">
+		    						Income verification: <label for="income-verification" class="ed_up">choose file</label>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>  		
+		    	</div>
+		    </form><br>
+	    </section><br>
+
+
+	    <footer>
+	    	
+	    </footer>
+
+
+		<script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js "></script>
+		<script type="text/javascript" src="assets/js/flathub.js"></script>
+		<script type="text/javascript">
+			// function validation() {
+			// var a = document.getElementById('full_name');
+			// 	if (a.value == "" || a.value == null){
+			// 		alert ("name pls");
+			// 		return false;			
+			// 	}
+			// 	else{
+			// 		return true;
+			// 	}
+			// }
+
+
+			// function validation() {
+			// var a = document.getElementById("full_name");
+			// var regex = /^[a-zA-Z]+$/;
+			// 	if (regex.test(a.value) == false){
+			// 	    alert("Name must be in alphabets only");
+			// 	   	a.focus();
+			// 		return false;
+			//     }
+			//     if(a.value == " "){
+			// 	    alert("Name Field cannot be left empty");
+			// 	    a.focus();
+			// 	   	return false;
+			//     }
+		 //    	return true;
+			// }
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

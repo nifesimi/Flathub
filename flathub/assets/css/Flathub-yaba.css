@@ -1,0 +1,623 @@
+body{
+	font-family: 'Avenir', Dosis, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*general styling */
+
+
+/*Navbar styling*/
+
+.rectangle-copy {
+	border: 1px solid #e1e1e1;
+	display: flex;
+	min-height: 60px;
+	align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.rectangle-copy ul {
+	list-style-type: none;
+}
+
+.rectangle-copy ul li {
+	display: inline-block;
+	padding: 11px 45px 0px 45px;
+}
+
+.rectangle-copy ul li a {
+	text-decoration: none;
+	color: #000000;
+	color: var(--black);
+	font-size: 16px;
+	}
+
+}
+
+
+
+
+
+/* dashboard styling starts here*/
+
+
+
+.dashboard {
+	color: #a66429 !important;
+}
+.dashboard span{
+	color: #000000 !important;
+	font-weight: 0.2px;
+}
+
+
+
+/* dashboard styling ends here*/
+
+
+/*general styling ends here*/
+
+
+
+
+/*flathub-yaba starts here*/
+
+/*Header styling*/
+.homes_yaba ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.homes_yaba a:link,
+.homes_yaba a:visited,
+.homes_yaba a:hover{
+	text-decoration: none;
+	color: #cdcdcd;
+	font-family: Avenir-Book;
+}
+#gly_homes{
+	color: #cdcdcd;
+	font-weight: 50px;
+}
+#yb{
+	color: #a66429;
+}
+.homes_yaba ul li i{
+	font-size: 16px;
+}
+
+
+/*Section styling*/
+.yaba_card{
+	border: 0.1px solid #E0E0E0;
+	border-radius: 2px;
+	margin-bottom: 50px;
+}
+
+.yaba_card a img{
+	width: 100%;
+}
+
+.rectangle-6{
+	padding: 20px;
+}
+
+.rectangle-6 p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #4a4a4a;
+	margin-bottom: 0px;
+}
+
+.yaba_card a:link,
+.yaba_card a:visited,
+.yaba_card a:hover{
+	text-decoration: none;
+}
+
+/*flathub-yaba ends here*/
+
+
+/*ourhomes2 starts here*/
+.our-apatments{
+	color: #000000;
+}
+.rectangle-3{
+	width: 263px;
+	height: 48px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+}
+
+.rectangle-3:focus{
+	outline: none;
+}
+
+.rectangle-3-btn{
+	width: 165px;
+	height: 48px;
+	margin-left: 10px;
+	color: #FFF;
+	background-color: #A66429;
+	font-size: 16px;
+	border-radius: 4px;
+	box-shadow: none;
+	border: none;
+}
+
+#rect_viewlist{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	width: 195px;
+	height: 48px;
+	position: relative;
+}
+@media (max-width: 425px) {
+	#rect_viewlist {
+		width: 100%;
+    	margin: 10px;
+	}
+}
+
+@media (max-width: 375px) {
+	#rect_viewlist {
+		width: 100%;
+    	margin-left: 10px;
+	}
+}
+@media (max-width: 320px) {
+	#rect_viewlist {
+		width: 100%;
+    	margin-left: 10px;
+	}
+}
+
+#btn_gly{
+	margin-top: -7px;
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+}
+
+
+/*Ourhomes1 styling starts here*/
+
+.yaba_clink{
+	position: relative; 
+}
+
+.y_c{
+	position: relative;
+	width: 100%;
+}
+
+.yaba_clink img{
+	width: 100%;
+}
+.y_c_1{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+.y_c_1 h1{
+	color: #FFF;
+}
+
+
+/*Our homes ends here*/
+
+
+/*apartment details page styling starts here*/
+.cont-sized{
+	margin-top: 20px;
+}
+
+.img_rect12{
+	width: 100%;
+	height: 420px;
+}
+.h_col{
+color: #4a4a4a;
+}
+
+.h_col_2 {
+	margin-top: 45px;
+}
+.rectangle-15{
+	width: 100%;
+	height: 420px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #cdcdcd;
+	margin: auto;
+	justify-content: center;
+	padding: 40px 0px 40px 0px;
+}
+.rectangle-15 i {
+	margin-left: 38px;
+	margin-right: 38px;
+}
+.rectangle-15 input{
+	width: 80%;
+	margin-left: 38px;
+	margin-right: 38px;
+	height: 48px;
+	margin-bottom: 32px;
+}
+
+#rect-17{
+	width: 80%;
+	border-radius: 2px;
+	background-color: #a66429;
+	color: #FFF;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+#rect-17-copy{
+	width: 80%;
+	margin-top: 32px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #a66429;
+	color: #a66429;
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+
+.about{
+	width: 70%;
+	margin: auto;
+	margin-top: 48px;
+}
+.about_1 h1{
+	margin-bottom: 0px;
+}
+.about div textarea{
+	width: 100%;
+	border: 0px;
+	height: 120px;
+}
+.space{
+	margin-top: 48px;
+}
+.amenities{
+	margin-top: 48px;
+}
+.house_rules{
+	margin-top: 48px;
+}
+.price{
+	margin-top: 48px;
+}
+.reviews{
+	margin-top: 48px;
+}
+.h_rule{
+	border: 1px solid #e1e1e1;
+	width: 100%;
+}
+.h_rule1{
+	width: 40%;
+	border: 1px solid #e1e1e1;
+}
+.show_more{
+	color: #a66429;
+	text-decoration: none;
+}
+.t_m{
+	padding-left: 0px;
+}
+#star_b{
+	color: #a66429;
+}
+/*apartment details page styling ends here*/
+
+
+
+/*viewings_page styling starts here. It contains general styling for most other pages that have the dash board*/
+
+.cont_view {
+	width: 70%;
+	border: 1px solid #e1e1e1;
+	margin-top: 24px;
+	margin-bottom:;
+}
+.cont_view hr {
+	border: 1px solid #e1e1e1;
+}
+.row_view{
+	margin: 40px !important;
+}
+.row_view img {
+	width: 100%;
+}
+.row_view h3, .row_view p {
+	color: #4a4a4a;
+}
+.m_2 h3{
+	margin-top: 5px;
+}
+.row_view button {
+	width: 166px;
+	height: 32px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	border: solid 1px #a66429;
+	color: #a66429;
+}
+
+/*viewings_page styling ends here*/
+
+
+
+/*user profile error messages, notification.html & some general user profile styling starts here*/
+
+.rectangle-27 {
+	width: 100%;
+	height: 40px;
+	background-color: #d0011b;
+	border: solid 1px #d0011b;
+}
+
+.rectangle-27-copy {
+	width: 100%;
+	height: 40px;
+	background-color: #d0011b;
+	border: solid 1px #d0011b;
+	margin-bottom: 184px;
+}
+
+.i_clo {
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 0px;
+
+}
+.i_mar {
+	padding-left: 0px;
+	top: 50%;
+    margin-top: -10px;
+}
+.x_clo {
+	margin-top: 8px;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	color: #d0011b;
+	background-color: #FFF;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.rectangle-22 {
+	width: 80%;
+	height: 17px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: solid 1px #ab6c34;
+}
+.rectangle-26 {
+	width: 80%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #ab6c34;
+}
+.mar_pro {
+	padding-left: 0px;
+}
+
+.ed_up {
+	color: #a66429;
+}
+.h_edit {
+	color: #a66429 !important;
+}
+
+
+
+
+
+/*user profile error messages ends here*/
+
+
+
+
+
+
+/*Settings page styling starts here*/
+.mar_pro{
+	display: inline-flex;	
+}
+
+.settings{
+	color: #a66429 !important;
+}
+
+.i_wtr{
+	font-size: 25px;
+}
+
+.d_wtr {
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+.d_wtr div {
+	margin-bottom: 10px;
+}
+
+.rectangle-30 button{
+	border-radius: 2px;
+	background-color: #a66429;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+/*settings page styling ends here*/
+
+
+
+
+/*listings page styling starts here*/
+.on-it li:hover {
+	color: #a66429 !important;
+}
+
+#dash_list {
+	width: 100%;
+	height: 80px;
+	border: 4px dashed #979797;
+	font-size: 24px;
+}
+
+
+.rectangle-3{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	width: 195px ;
+	height: 48px;
+	position: relative;
+}
+
+.rectangle-3:link,
+.rectangle-3:focus,
+.rectangle-3:active,
+.rectangle-3:visited,
+.rectangle-3:hover{
+	border: 0.5px solid #A66429;
+	color: #A66429;
+	background-color: #FFF;
+	text-decoration: none;
+}
+
+#rec-3-gly{	
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	margin-top: -7px;
+}
+
+#trash {
+	color:  #cdcdcd;
+}
+/*listings page styling ends here*/
+
+
+
+
+
+/*user apartment styling starts here*/
+.rectangle-18{
+	width: 166px ;
+	height: 32px;
+	border-radius: 2px;
+	font-weight: 500 !important;
+	color: #ffffff !important;
+	background-color: #fc7b08 !important;
+	border: solid 1px #fc7b08 !important;
+}
+
+/*user apartment styling starts here*/
+
+
+
+/*Flathub-notification2 starts here*/
+
+#rectangle-27-copy {
+	width: 100%;
+	height: 40px !important;
+	background-color: #d0011b !important;
+	border: solid 1px #d0011b !important;
+	margin-bottom: 184px !important;
+}
+
+.i_clo {
+	font-size: 12px;
+	color: #FFF;
+	letter-spacing: 0px;
+
+}
+.i_mar {
+	padding-left: 0px;
+	top: 50%;
+    margin-top: -10px;
+}
+.x_clo {
+	margin-top: 8px;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	color: #d0011b;
+	background-color: #FFF;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+/*flathub-notification2 ends here*/
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default:hover .navbar-toggle:hover{
+	border: none;
+} 
+
+
+/*styling from odion for navbar*/
+.navbar-default {
+    border-color: none !important; 
+}
+.navbar{
+	background-color: transparent;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+/*styling from odion for navbar*/
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

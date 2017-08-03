@@ -1,0 +1,193 @@
+*{
+	box-sizing: border-box;
+}
+
+/*reset */
+html, body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+  width: 100%;
+}
+body{
+  background: #ffffff;
+  font-family: Avenir-Book;
+}
+
+html{
+  min-height: 100%;
+}
+
+header{
+  width: 100%;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+ 
+}
+section{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  color: var(--black);
+}
+a:hover{
+  color: #a66429;
+}
+
+.Rectangle {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+  background: #ffffff;
+}
+.Rectangle-21 {
+  width: 100%;
+  min-height: 415px;
+  border: solid 1px #cdcdcd;
+  margin-bottom: 48px;
+}
+.Rectangle-Copy {
+  width: 100%;
+  height: 60px;
+  border-top:solid 1px #e1e1e1;
+  background: #ffffff;
+  border-right: none;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+
+.header {
+  width: 100%;
+  height: 416px;
+  object-fit: contain;
+  padding: 0px !important;
+  background-image: url(../img/pics/header.png);
+
+}
+.About-us {
+  height: 33px;
+  font-size: 24px;
+  color: #4a4a4a;
+  width: 100%;
+}
+
+.Line {
+  width: 751px;
+  height: 2px;
+}
+
+.FlatHub-provides-cla {
+  margin-left: 97px;
+  margin-right: 97px;
+  min-height: 359px;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #4a4a4a;
+  border-top: solid 1px #cdcdcd;
+  padding-top: 24px;
+}
+
+section .container{
+  width: 100%;
+  max-width: 945px;
+}
+
+
+
+/*.top-rectangles {
+  width: 100px;
+  height: 652px;
+  object-fit: contain;
+}*/
+
+.navbar-collapse.collapse {
+  height:100% !important;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+  color: var(--black);
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #a66429;
+}
+.navbar-default .navbar-nav>li>a .glyphicon{
+  font-weight: 100 !important;
+  font-size: xx-small !important;
+}
+.navbar-default .navbar-toggle {
+    border: none !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    width: 20px;
+}
+
+.dropdown-menu>li>a {
+     white-space: normal !important;
+}
+
+/* generalized classes */
+.h-100{
+  height: 100% !important;
+}
+
+.dis-flex{
+  display: flex !important;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.current{
+  color: #a66429 !important;
+}
+
+.mb-48{
+  margin-bottom: 48px;
+}
+/*genralised classes end here*/
+
+
+.Group {
+  width: 263px;
+  height: 48px;
+  object-fit: contain;
+  margin-left: 240px;
+  background: #a86334;
+  border: none;
+  color: #ffffff
+}
+
+.About-us-Contacts-us {
+  width: 769px;
+ 
+  list-style-type: none;
+  margin-left: 256px;
+  padding-left: 0px;
+}
+.About-us-Contacts-us li{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #000000;
+  color: var(--black);
+  width: 150px;
+
+}

@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+/* NAVBAR BEGINS *//**/
+.navbar-default {
+    border-color: none !important; 
+}
+.navbar{
+	background-color: transparent;
+	height: 100%;
+	margin-bottom: 0;
+  border: 1px solid #e1e1e1;
+}
+.img-responsive {
+    padding: 11px 11px;
+}
+/* NAVBAR ENDS */
+
+/* GENERAL STYLING BEGINS */
+.p-0 {
+	padding: 0; /*removes padding from col md 12 so the top-rectangle image fits the screen*/
+}
+.mb-cf {
+   	margin-bottom: 40px;/**/
+}
+.bor {
+	border: solid 1px #e1e1e1;/*sets border on section..Our location test.html*/
+}
+.bord {
+	border-bottom: solid 1px #e1e1e1;
+}
+h3, h6 {
+	margin: 0;
+	color: #FFF;
+	word-spacing: 2px;
+}
+h3 {
+	padding-bottom: 20px;
+}
+h6 {
+	padding-bottom: 50px;
+}
+.Headings {
+ /*font-family: Avenir-Book;*/
+  font-size: 36px;
+  text-align: center;
+  color: #4a4a4a;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.divider{
+	text-align: center;
+    border-top: 2px solid #979797;
+    width: 100px;
+    margin: 0 auto;
+}
+.dis-flex{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* GENERAL STYLING ENDS */
+
+.Rectangle-3 {
+	height: 50px;
+    width: 250px;
+    border-radius: 4px;
+    border-width: 0px;
+    margin: 5px;
+
+}
+.Rectangle-3.Copy-4,  .Rectangle-3.Copy-2, .Rectangle-3.Copy, .Rectangle-3.Copy1 {
+	height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin: 5px;
+}
+.Rectangle-3.Copy {
+	background-color: #a76428;
+	color: #FFF;
+}
+.Rectangle-3.Copy1 {
+	background-color: #FFF;
+	color: #a76428;
+	border: 1px solid #a76428;
+}
+.top-rectangles, .top-rectangles2 {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  padding-top: 164px;
+  padding-left: 72px;
+}
+.top-rectangles {
+  background-image: url(../img/flat1/top-rectangles.png);
+}
+.top-rectangles2 {
+  background-image: url(../img/flat2/top-rectangles2.png);
+}
+
+
+/*.thumbnail {
+    padding: 0px;
+    border-radius: 0;
+    border: none;
+}*/
+.naira {
+  width: 60px;
+  height: 60px;
+}
+.Rectangle-9 {
+	width: 100%;
+	height: 276px;
+  border-radius: 2px;
+  opacity: 0.85;
+ 	background-color: #000000;
+ 	background-size: 100% 100%; /* alternative values ... cover and contain */
+ 	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#yaba {
+	background-image: url(../img/flat1/yaba2.jpg);
+}
+#surulere {
+	background-image: url(../img/flat1/yaba3.jpg);
+}
+#ikeja {
+	background-image: url(../img/flat1/yaba4.png);
+}
+p.Our{
+	color: #FFF;
+	font-size: 25px;
+}
+a.yaba {
+  text-decoration: none;
+}
+a.yaba .Our:hover {
+  color: #a76428;
+}
+/* FOOTER BEGINS */
+.Rectangle-8 {
+  background-color: #4a4a4a;
+  color: #FFF;
+}
+.col-md-8 {
+  margin-top: 60px;
+}
+.col-md-3, .col-md-6{
+	padding: 0;
+}
+.col-md-3 ul li, .col-md-6 ul li {
+	padding: 13px 0px;
+	font-size: 11px;
+}
+.col-md-3 ul li a, .col-md-6 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.col-md-6 ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+.circle{
+	width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #fff;
+    color: #4a4a4a;
+}
+.circle.dis-flex.mid {
+	margin: 0px 10px;
+}
+/* FOOTER ENDS */
+
+
+.Get{
+	width: 100%;
+  	height: 120px;
+  	background-color: whitesmoke;
+}

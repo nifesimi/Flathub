@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+	.col-md-12 ul li.text-center {
+		display: inline-block;
+		padding: 11px 45px 0px 45px;
+		font-size: 16px;
+	}
+	/*input[type=text] {
+		min-width: 40%;
+		margin-bottom: 5px;
+	}*/
+				
+}
+@media (max-width: 767px) {
+	.col-md-12 ul li.text-center {
+		display: inline-block;
+		padding: 11px 5px 0px 5px;
+		font-size: 14px;
+	}
+	.img-responsive {
+    	padding: 11px 11px;
+	}
+	div.holder {
+  		width: 80% !important;
+  		padding: 20px 40px; !important;
+  	}
+	textarea {
+		width: 60% !important;
+	}
+	input.Rectangle-3 {
+		width: 90% !important;
+		
+	}
+	input[type=text] {
+		min-width: 30%;
+		margin-bottom: 5px;
+	}
+	input[type=datetime-local] {
+		width: 100%;
+
+	}
+	.but1 {
+		margin-bottom: 5px;
+	}
+	#add {
+		width: 30% !important;
+	}			
+}
+
+@media (max-width: 480px) {
+	div.holder {
+  		width: 80% !important;
+  		padding: 10px 30px; !important;
+  	}
+  	.col-md-12 ul li.text-center {
+		display: inline-block;
+		padding: 11px 5px 0px 5px;
+		font-size: 12px;
+	}
+	textarea {
+		width: 100% !important;
+	}
+	input.Rectangle-3 {
+		width: 90% !important;
+		
+	}
+	input[type=text] {
+		min-width: 50%;
+		margin-bottom: 5px;
+	}
+	input[type=datetime-local] {
+		width: 100%;
+
+	}
+	.but1 {
+		margin-bottom: 5px;
+	}
+	#add {
+		width: 30% !important;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	div.holder {
+  		width: 100% !important;
+  		padding: 40px 20px; !important;
+  	}
+  	
+  	textarea {
+		width: 100% !important;
+	}
+	input.Rectangle-3 {
+		width: 90% !important;
+		
+	}
+	input[type=text] {
+		min-width: 90%;
+		margin-bottom: 5px;
+	}
+	input[type=datetime-local] {
+		width: 100%;
+
+	}
+	.but1 {
+		margin-bottom: 5px;
+	}
+	#add {
+		width: 30% !important;
+	}
+}

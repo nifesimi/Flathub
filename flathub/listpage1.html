@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" >
+
+		<!-- Maintest CSS -->
+		<link rel="stylesheet" type="text/css" href="css/maintest.css">
+
+		<!-- listpage CSS -->
+		<link rel="stylesheet" type="text/css" href="css/listpage.css">
+
+		<!-- responsive CSS -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="plugins/font-awesome/css/font-awesome.min.css">
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="landingpage.html"><img src="img/flat1/flat-hub.png" class="img-responsive"></a>
+				</div>
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="landingpage.html">Our apartments</a></li>
+						<li><a href="landingpagelist.html">List apartments</a></li>
+						<li><a href="#"><span style="color: #a66429;"> Tobi Adebola &nbsp;<span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="color: #777; font-size: 9px;"></span></span></a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+		<header>
+			<div class="container-fluid">
+				<div class="row" id="edges">
+					<div class="col-md-12 col-xs-12 p-0 dis-flex h100" >
+						<ul class="list-unstyled text-center">
+							<li class="text-center"><a href="user_profile.html">Dashboard</a></li>
+							<li class="text-center"><a href="user_apartment.html">Apartments</a></li>
+							<li class="text-center"><a href="viewings_page.html">Viewings</a></li>
+							<li class="text-center list"><a href="listings_page.html">Listings</a></li>
+							<li class="text-center"><a href="settings_page.html">Settings</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 p-t-b-25">
+						<p>
+							<a href="listings_page.html" class="lists"><span id="listing"> Listings</span></a>
+							<span id="icon" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span id="addlist">Add a Listing</span>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="holder">
+									<div class="tell">
+										<h4>Where is your place located?</h4>
+									</div>
+									<div class="tell">
+										<textarea placeholder=" Street address" style ="width: 45%; height: 50px;"></textarea>
+									</div>
+									<div class="tell">
+										<input type="text" id="txtlist" placeholder=" City" list="city" class="but1" style ="width: 20%;">
+										<datalist id="city">
+						                    <option value="Yaba"></option>
+						                    <option value="Ikeja"></option>
+						                    <option value="Surulere"></option>
+						                </datalist>
+						                <input type="text" id="txtlist" placeholder=" State" class="but1" style ="width: 20%; margin-right: 0;">
+									</div>
+									<div class="tell">
+										<a href="listpage2.html"><button class="but2">Next</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+
+
+		<!-- jQuery -->
+		<script src="plugins/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		
+	</body>
+</html>

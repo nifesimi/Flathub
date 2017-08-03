@@ -1,0 +1,168 @@
+@media (max-width: 1038px){
+	.About-us-Contacts-us {
+	  margin-left: 140px;
+	}
+}
+
+@media (max-width: 1024px){
+	.About-us-Contacts-us {
+	  margin-left: 120px;
+	}
+}
+
+@media (max-width: 977px){
+	.About-us-Contacts-us {
+	  margin-left: 110px;
+	}
+}
+@media (max-width: 960px){
+	.About-us-Contacts-us {
+	  margin-left: 100px;
+	}
+}
+
+@media (max-width: 950px){
+	.About-us-Contacts-us {
+	  margin-left: 80px;
+	}
+}
+
+@media (max-width: 940px){
+	.About-us-Contacts-us {
+	  margin-left: 60px;
+	}
+}
+
+@media (max-width: 900px){
+	.About-us-Contacts-us {
+	  margin-left: 40px;
+	}
+}
+@media (max-width: 880px){
+	.About-us-Contacts-us {
+	  margin-left: 30px;
+	}
+}
+@media (max-width: 850px){
+	.About-us-Contacts-us {
+	  margin-left: 15px;
+	}
+}
+@media (max-width: 820px){
+	.About-us-Contacts-us {
+	  margin-left: 0px;
+	}
+}
+@media (max-width: 800px){
+	.About-us-Contacts-us {
+	  margin-left: -3px;
+	}
+}
+@media (max-width: 790px){
+	.About-us-Contacts-us {
+	  margin-left: -6px;
+	}
+}
+@media (max-width: 770px){
+	.About-us-Contacts-us {
+	  margin-left: -9px;
+	}
+}
+@media(max-width:440px ){
+	.FlatHub-provides-cla{
+		margin-right: 68px;
+		margin-left: 68px;
+	}
+}
+
+@media(max-width:390px ){
+	.FlatHub-provides-cla{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+}
+@media(max-width:290px ){
+	.FlatHub-provides-cla{
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+}
+@media(max-width:190px ){
+	.FlatHub-provides-cla{
+		margin-right: 1px;
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 320px){
+	#mobile{
+		padding: 14px !important;
+	}
+}
+
+@media(max-width: 767px){
+	.col-md-12{
+		padding: 0px;
+	}
+	#mobile{
+	position: fixed;
+    width: 40%;
+    top: 0px;
+    height: 100vh;
+    background: rgba(243, 246, 248, 1)!important;
+    z-index: 5;
+    right: 0px;
+    padding: 21px;
+    transition: all 0.5s cubic-bezier(0.6, 0.38, 0, 1.21);
+    transform: translateX(100%);
+	}
+
+	#mobile ul {
+		list-style-type: none;
+		padding-left: 0px;
+	}
+
+	#mobile ul li a{
+		color: #555;
+		font-size: 14px;
+	}
+
+	#mobile ul li{
+		line-height: 3;
+		border-bottom: 1px solid #555;
+		
+	}
+	#mobile ul li a span{
+		font-size: xx-small;
+		
+	}
+
+	.open #mobile{
+		transform: translateX(0%) !important;
+	}
+
+	header, .wrapper{
+		transition: all 0.5s cubic-bezier(0.6, 0.38, 0, 1.21);
+	}
+
+	.open .wrapper{
+		width: 60%;
+	}
+}
+
+/* logo here*/
+@media (max-width: 412px){
+	.navbar-brand {
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+}
+@media (max-width: 320px){
+	.navbar-brand {
+		padding-right: 1px;
+		padding-left: 1px;
+	}
+}
+
+/* logo ends here*/
+	
